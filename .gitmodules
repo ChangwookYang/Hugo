@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/ChangwookYang/ChangwookYang.github.io.git
+	branch = master
