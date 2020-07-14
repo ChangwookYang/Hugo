@@ -2,17 +2,17 @@
 title: "Spring Framework(1)"
 date: 2020-07-08T00:32:21+09:00
 ---
-# Spring 프래임워크란?
-
-## IoC와 AOP를 지원하는 경량의 컨테이너 프레임워크
-
- 
-
-### - 경량(두 가지 이유)
-
-           1. 모듈들이 jar파일로 묶여있다.
-
-           2. POJO(Plain Old Java Object) 지원하여 형식 제약이 없다
+# Spring 프래임워크란?  
+  
+## IoC와 AOP를 지원하는 경량의 컨테이너 프레임워크  
+  
+   
+  
+### - 경량(두 가지 이유)  
+  
+           1. 모듈들이 jar파일로 묶여있다.  
+  
+           2. POJO(Plain Old Java Object) 지원하여 형식 제약이 없다  
 
               ex) Servlet 같은 경우는 doGet, doPost 등의 제약이 있는 것이 차이점
 
