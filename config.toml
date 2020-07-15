@@ -5,3 +5,4 @@ title = "WOOKLOG"
 disqusShortname="wookchangyang"
 summarylength = 20
 googleAnalytics = "UA-172670101-1"
+enableRobotsTXT = true
