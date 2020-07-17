@@ -26,7 +26,7 @@ date: 2020-07-13T23:47:00+09:00
     선언형은 이거'는' 이거다!
     순수함수들은 인풋만 같으면 같은 결과를 산출한다.
 
-2. 함수도 값이다.
+2. 함수도 값이다.  
 ```javascript
 function say_it (given){
 	console.log(given);
@@ -38,7 +38,7 @@ const say_it = (given) => console.log(given);
 ```  
 순수함수의 경우 인자값에 대한 정해진 값을 리턴해주기 때문에 함수를 값으로 생각할 수 있다.
 
-3. 고계함수
+3. 고계함수  
 함수를 값으로 볼 수 있다면 함수도 다른 함수의 인자로 넣어줄 수 있다.  
 다른 함수를 인자로 받거나 다른 함수를 반환하는 함수를 고계함수라 한다.  
 ```javascript
@@ -64,8 +64,8 @@ multiply2(3) // 6 리턴
 ```
 ![고계함수2](https://user-images.githubusercontent.com/66955409/87318699-aa6e2200-c563-11ea-99af-c0db3ede58bc.png)
 
-4. 커링
-함수형 언어 Scalar
+4. 커링  
+함수형 언어 Scalar  
 ```javascript
 def add(num1 : Int, num2 : Int):Int = num1 + num2;
 add(2, 3)
@@ -79,7 +79,7 @@ add2(9) // 11 리턴
 여러 인자를 받는 함수에 일부 인자만 넣어서 나머지 인자를 받는 다른 함수를 만들어 낼 수 있는 함수프로그래밍 기법을 *커링*이라고 한다.  
 커링을 활용하면 모든 인자들이 준비되지 않았을 때 부분적용된 상태의 함수를 만들어내서 마련해두거나 다른 함수로 인자를 넘겨줄 수 있다.  
   
-5. 함수 컴비네이터
+5. 함수 컴비네이터  
 ![함수컴비네이터1](https://user-images.githubusercontent.com/66955409/87318719-b0fc9980-c563-11ea-990b-492999eab788.png)
 ![함수컴비네이터2](https://user-images.githubusercontent.com/66955409/87318759-b8bc3e00-c563-11ea-8cdc-b30a2fc520ff.png)
 
