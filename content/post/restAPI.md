@@ -7,17 +7,28 @@ date: 2020-07-17T23:32:21+09:00
   
 [얄코 REST API](https://www.youtube.com/watch?v=iOueE9AXDQQ&feature=youtu.be) 이 동영상 보고 정리함!  
 
+### REST란?  
+REST(**RE**presentational **S**tate **T**ransfer)는 인터넷 상의 컴퓨터 시스템간 상호운용성을 제공하는 방법 중 하나!
+
+REST는 HTTP 기반으로 필요한 자원에 접근하는 방식을 정해놓은 네트워크 아키텍쳐이다.
+자원이란? 저장된 데이터(DBMS)는 물론, 이미지/동영상/문서(PDF등)/서비스(이메일전송, 푸쉬메시지 등) 모두 포함된다.
+
 ### API란?  
-소프트웨어가 다른 소프트웨어로부터 지정된 형식으로 요청, 명령을 받을 수 있는 수단을  
+소프트웨어가 다른 소프트웨어로부터 지정된 형식으로 요청, 명령을 받을 수 있는 
+수단을  
 API(Application Programming Interface)라고 한다.  
   
 * 자판기버튼, 키보드, 마우스는 인터페이스
 * 기계와 기계 사이, 소프트웨어와 소프트웨어 사이에 Interface
 * 로컬 브라우저는 Web API를 활용하여 자바스크립트로부터 특정 동작들을 지시받기도한다.
   
-  ---
-        
+### REST API란?
+REST기반으로 서비스 API를 구현한 것을 REST API라고 한다.
 **프론트엔드 웹에서 서버에 데이터를 요청하거나 할때 사용되는 것이 REST란 형식의 API이다.**  
+
+  ---
+
+
 
 REST API의 가장 큰 특징은  
 *각 요청이 어떤 동작이나 정보를 위한 것인지 **요청의 모습 자체로 추론가능**하는 것*이다.  
@@ -60,7 +71,7 @@ DELETE | 삭제
 URI는 동사가 아닌 명사로 사용하여야하기때문에  
 GET, POST만으로 모든것을 처리 할때 URL에 update, create등의 동작을 넣지 않는다.  
   
-만약 POST로만 사용하게 된다면 URI에 동사들을 넣게되어 불필요할 것이다.  
+ POST로만 사용하게 된다면 URI에 동사들을 넣게되어 불필요할 것이다.  
 ex) 도메인/classes/2/students/create, 도메인/classes/2/students/14/update  
 
 --- 
