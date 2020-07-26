@@ -22,7 +22,7 @@ LRU 알고리즘은 메모리 상에서 **<u>가장 최근에 사용된적 없�
 
 Step1 : 1 -> 2 -> 3 순차 호출 시
 
->[3] [2] [1]
+> [3] [2] [1]
 
 Step2 : Get(2) : 2번 캐시를 호출함
 
@@ -74,7 +74,7 @@ public class LRUCacheImpl {
 	}
 	
 	private void remove(ListNode node){
-		node.prev.next = node.next;	// 이전 노드가 
+		node.prev.next = node.next;
 		node.next.prev = node.prev;
 		nodeMap.remove(node.key);	// map에서 제거
 	}
@@ -82,7 +82,7 @@ public class LRUCacheImpl {
 	private void insertToHead(ListNode node){
 		this.head.next.prev = node;
 		node.next = this.head.next;
-		node.prev = this.head;	// 포인터용 head 노드가 존재한다.
+		node.prev = this.head;	// 데이터가 없는 포인터용 head 노드가 존재한다.
 		this.head.next = node;
 		nodeMap.put(node.key, node);
 	}
@@ -104,7 +104,7 @@ public class LRUCacheImpl {
 			remove(oldNode);
 		} else {
 			if(nodeMap.size >= capacity){
-				ListNode tailNode = tail.prev;
+				ListNode tailNode = tail.prev;	// 더블링크드리스트 형태를 쓰는 이유
 				remove(tailNode);
 			}
 		}
