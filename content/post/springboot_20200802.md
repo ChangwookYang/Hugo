@@ -1,9 +1,9 @@
 ---
-title: "PathVariable & QueryParameter"
+title: "스프링과 스프링부트"
 date: 2020-08-02T23:00:00+09:00
 ---
 
-## 스프링와 스프링부트
+## 스프링과 스프링부트
 
 [참고링크](https://sas-study.tistory.com/274)
 
