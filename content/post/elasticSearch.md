@@ -1,3 +1,7 @@
+---
+title: "ElasticSearch 기본 동작 이해"
+date: 2020-08-03T22:50:00+09:00
+---
 ### ElasticSearch 기본 동작 이해
 
 [참고링크](https://victorydntmd.tistory.com/308)
