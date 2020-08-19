@@ -121,10 +121,11 @@ EntityManager.persist(entity) // DB에 저장하는 것이 아니라 영속성 �
     ```JAVA
     Member member = new Member();
     member.setId("member1");
+    ```
 
     EntityManager em = EntityManagerFactory.createEntityManager();
     em.getTransaction().begin();
-
+    
     // 객체를 저장한 상태(영속)
     em.persist(member);
     ```
@@ -140,6 +141,7 @@ EntityManager.persist(entity) // DB에 저장하는 것이 아니라 영속성 �
 ##### 영속성 컨텍스트의 이점
 
 **1) 1차 캐시**
+
   ```JAVA
   Member member = new Member();
   member.setId("member1");
@@ -224,6 +226,8 @@ public class Member {
  	@JoinColumn(name = "TEAM_ID")
  	private Team team;
 }
+
+@OneToMany
 
 //조회
 Member findMember = em.find(Member.class, member.getId());
