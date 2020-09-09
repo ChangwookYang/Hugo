@@ -39,7 +39,8 @@ depth의 값이 r만큼 되면 순열 완성
 >
 >아래 채워지는 칸들이 output 배열에 해당
 
-<img width="800" alt="1111" src="https://user-images.githubusercontent.com/66955409/92633997-9437d480-f30e-11ea-8b45-beac1cea2484.PNG">
+![img](https://user-images.githubusercontent.com/66955409/92633997-9437d480-f30e-11ea-8b45-beac1cea2484.PNG)
+
 
 ##### 소스코드
 ```java
