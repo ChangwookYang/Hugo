@@ -150,7 +150,8 @@ date: 2020-09-02T02:02:00+09:00
      ​		sleep() 메소드에 의해 Block 상태가 된 스레드는 지정 시간이 지나면 Runnable 상태로 된다.
 
    * Dead 상태 : Running 상태에서 스레드가 모두 실행되고 난 후 완료 상태
-      <img src="https://user-images.githubusercontent.com/66955409/91877041-6e7c5100-ecb8-11ea-9df2-6dea89169540.png" alt="image" style="zoom:80%;" />
+
+<img src="https://user-images.githubusercontent.com/66955409/91877041-6e7c5100-ecb8-11ea-9df2-6dea89169540.png" alt="image" style="zoom:80%;" />
 
 
 --- 
