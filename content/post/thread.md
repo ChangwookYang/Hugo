@@ -151,7 +151,7 @@ date: 2020-09-02T02:02:00+09:00
 
    * Dead 상태 : Running 상태에서 스레드가 모두 실행되고 난 후 완료 상태
 
-<img src="https://user-images.githubusercontent.com/66955409/91877041-6e7c5100-ecb8-11ea-9df2-6dea89169540.png" alt="image" style="zoom:80%;" />
+![img](https://user-images.githubusercontent.com/66955409/91877041-6e7c5100-ecb8-11ea-9df2-6dea89169540.png)
 
 
 --- 
