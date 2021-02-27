@@ -1,4 +1,8 @@
-## 생활코딩 - AWS(1)
+---
+title: "생활코딩 - AWS(1)"
+date: 2021-02-27T22:00:00+09:00
+---
+
 
 > 클라우드 컴퓨팅 : 인터넷에 연결되어 있는 거대한 컴퓨터를 사용한다.
 
@@ -28,4 +32,21 @@ Region1, Region2가 있다.
 
 #### AWS EC2 (Elastic Compute Cloud)
 
-> 독립된 컴퓨터를 임대해 주는 서비스
+> 독립된 컴퓨터를  통쨰로 임대해 주는 서비스
+
+* 인스턴스 : 컴퓨터 한 대를 인스턴스
+  * 임대하고 있는 컴퓨터 현황을 볼 수 있다.
+* 인스턴스 타입
+  * Choose AMI(Amazon Machine Image) : 운영체제를 선택(Unix / Window)
+  * Choose an Instance Type : 사양을 선택
+    * vCPUs : 몇개의 CPU (v : virtual)
+    * Memory(GiB) : 메모리 크기
+* 가격 정책
+  * 온 디맨드 인스턴스 (필요할때마다 키고 끄고 할 수 있는 인스턴스)
+
+
+
+
+
+
+
